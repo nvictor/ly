@@ -1,4 +1,5 @@
 % NOTE(victor): macOS builds are sort of old
+% \version "2.22.0"
 \version "2.20.0"
 
 \header {
