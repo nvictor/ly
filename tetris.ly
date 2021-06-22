@@ -20,6 +20,8 @@ global = {
 chordnames = \chordmode {
   \global
 
+  % NOTE(victor): chords - mesures 1 - 4
+
   % NOTE(victor): it is ridiculous from a parsing perspective that
   % the chordmode block would also need the \repeat command
   \repeat volta 2 {
@@ -38,6 +40,8 @@ chordnames = \chordmode {
 
   \break
 
+  % NOTE(victor): chords - mesures 5 - 8
+
   a1:m |
   e1/gis |
   a1: m |
@@ -53,6 +57,8 @@ chordnames = \chordmode {
   \bar "||"
   
   \break
+
+  % NOTE(victor): chords - mesures 9 - 12
 
   e1 |
   a1:m |
@@ -71,7 +77,9 @@ chordnames = \chordmode {
 
 right = \relative c'' {
   \global
-  
+
+  % NOTE(victor): right hand - mesures 1 - 4
+
   \repeat volta 2 {
     <b e>4 <gis b>8[ <a c>8] <b d>4 <a c>8[ <gis b>8] |
     <e a>4 <e a>8[ <a c>8] <c e>4 <b d>8[ <a c>8] |
@@ -85,6 +93,10 @@ right = \relative c'' {
     <gis b>4. <a c>8 <b d>4 <c e>4 |
     <a c>4 <e a>4 <e a>2
   }
+  
+  \break
+
+  % NOTE(victor): right hand - mesures 5 - 8
 
   <c e>2 <a c>2 |
   <b d>2 <gis b>2 |
@@ -101,6 +113,8 @@ right = \relative c'' {
   \bar "||"
   
   \break
+
+  % NOTE(victor): right hand - mesures 9 - 12
 
   <b' e>4 <gis b>8[ <a c>8] <b d>4 <a c>8[ <gis b>8] |
   <e a>4 <e a>8[ <a c>8] <c e>4 <b d>8[ <a c>8] |
@@ -119,7 +133,9 @@ right = \relative c'' {
 
 left = \relative c, {
   \global
-  
+
+  % NOTE(victor): left hand - mesures 1 - 4
+
   \repeat volta 2 {
     e8[ e'8 e,8 e'8] e,8[ e'8 e,8 e'8] |
     a,8[ a'8 a,8 a'8] a,8[ a'8 a,8 a'8] |
@@ -133,6 +149,10 @@ left = \relative c, {
     b8 b'4 b8 r8 e,4 gis8 |
     a,8[ e'8 a,8 e'8] a,2
   }
+
+  \break
+
+  % NOTE(victor): left hand - mesures 5 - 8
 
   a8[ e'8 a,8 e'8] a,8[ e'8 a,8 e'8] |
   <gis, d'>8[ e'8 <gis, d'>8 e'8] <gis, d'>8[ e'8 <gis, d'>8 e'8] |
@@ -148,13 +168,17 @@ left = \relative c, {
 
   \bar "||"
 
+  \break
+
+  % NOTE(victor): left hand - mesures 9 - 12
+
   e8[ e'8 e,8 e'8] e,8[ e'8 e,8 e'8] |
   a,8[ a'8 a,8 a'8] a,8[ a'8 a,8 a'8] |
   gis,8_[ gis'8 gis,8 gis'8] e,8_[ e'8 e,8 e'8] |
   a,8[ a'8 a,8 a'8] a,8[ a'8 b,8 c8]
 
-   \break
- 
+  \break
+
   d8 d,4 d8( d8[ ) d8 a'8 f8] |
   c8 c'4 c8 c,8[ g'8] g4 |
   b8 b'4 b8 r8 e,4 gis8 |
