@@ -36,6 +36,8 @@ chordnames = \chordmode {
     a1:m
   }
 
+  \break
+
   a1:m |
   e1/gis |
   a1: m |
@@ -49,6 +51,8 @@ chordnames = \chordmode {
   e1/gis
 
   \bar "||"
+  
+  \break
 
   e1 |
   a1:m |
@@ -95,6 +99,8 @@ right = \relative c'' {
   <d gis>1
 
   \bar "||"
+  
+  \break
 
   <b' e>4 <gis b>8[ <a c>8] <b d>4 <a c>8[ <gis b>8] |
   <e a>4 <e a>8[ <a c>8] <c e>4 <b d>8[ <a c>8] |
