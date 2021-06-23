@@ -21,6 +21,7 @@ global = {
 sopranoVoice = \relative c'' {
   \global
 
+  % NOTE(victor): where to place dynamics
   \dynamicUp
 
   a2\p a2 r4 a4 |
@@ -174,6 +175,7 @@ viola = \relative c' {
 
 contrabass = \relative c {
   \global
+
   f2\p f2 r4 f4 |
   g2 g2 r4 g4 |
   c,2 c2 r4 c4 |
