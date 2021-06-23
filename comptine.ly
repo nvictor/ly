@@ -4,7 +4,7 @@
 
 \header {
   title = "Comptine d'un autre été"
-  composer = "yann tiersen"
+  composer = "Yann Tiersen"
   arranger = "victor noagbodji"
   % Remove default LilyPond tagline
   tagline = ##f
