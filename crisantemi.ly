@@ -3,8 +3,8 @@
 \version "2.20.0"
 
 \header {
-  title = "Crisantemi"
-  subtitle = "(closing phrase)"
+  title = "Crisantemi (closing phrase)"
+  subtitle = "(E major)"
   composer = "Giacomo Puccini"
   arranger = "victor noagbodji"
   % Remove default LilyPond tagline
@@ -102,25 +102,10 @@ cello = \relative c, {
   \bar "|."
 }
 
-violinIPart = \new Staff \with {
-  instrumentName = "Violin I"
-  midiInstrument = "violin"
-} \violinI
-
-violinIIPart = \new Staff \with {
-  instrumentName = "Violin II"
-  midiInstrument = "violin"
-} \violinII
-
-violaPart = \new Staff \with {
-  instrumentName = "Viola"
-  midiInstrument = "viola"
-} { \clef alto \viola }
-
-celloPart = \new Staff \with {
-  instrumentName = "Cello"
-  midiInstrument = "cello"
-} { \clef bass \cello }
+violinIPart = \new Staff \with { instrumentName = "Violin I" midiInstrument = "violin" } \violinI
+violinIIPart = \new Staff \with { instrumentName = "Violin II" midiInstrument = "violin" } \violinII
+violaPart = \new Staff \with { instrumentName = "Viola" midiInstrument = "viola" } { \clef alto \viola }
+celloPart = \new Staff \with { instrumentName = "Cello" midiInstrument = "cello" } { \clef bass \cello }
 
 \score {
   \new StaffGroup <<

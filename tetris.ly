@@ -4,6 +4,7 @@
 
 \header {
   title = "Tetris"
+  subtitle = "(A minor)"
   composer = ""
   arranger = "victor noagbodji & flowkey"
   % Remove default LilyPond tagline
@@ -192,10 +193,10 @@ left = \relative c, {
     \new ChordNames { 
      \chordnames 
     }
-    \new Staff = "right" {
+    \new Staff {
       \right
     }
-    \new Staff = "left" {
+    \new Staff {
       \clef bass \left 
     }
   >>

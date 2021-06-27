@@ -3,8 +3,8 @@
 \version "2.20.0"
 
 \header {
-  title = "Lascia Ch‘io Pianga"
-  subtitle = "(opening verse)"
+  title = "Lascia Ch‘io Pianga (opening verse)"
+  subtitle = "(F major)"
   composer = "G.F. Handel"
   arranger = "victor noagbodji"
   % Remove default LilyPond tagline
