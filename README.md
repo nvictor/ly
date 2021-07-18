@@ -1,10 +1,10 @@
 # ly
 
-Sheet music collection
+Personal sheet music collection made with [Lilypond](lilypond.org)
 
-| Song name | Files |
-|-----------|-------|
-| Tetris| [tetris.pdf](tetris.pdf) <br> [tetris.ly](tetris.ly) |
-| Comptine d'un autre été | [comptine.pdf](comptine.pdf) <br> [comptine.ly](comptine.ly)|
-| Lascia Ch‘io Pianga (opening verse) | [lascia-chio-pianga.pdf](lascia-chio-pianga.pdf) <br> [lascia-chio-pianga.ly](lascia-chio-pianga.ly) |
-| Crisantemi (closing phrase) | [crisantemi.pdf](crisantemi.pdf) <br> [crisantemi.ly](crisantemi.ly) |
+| ly | pdf |
+|----|-----|
+| [tetris.ly](ly/tetris.ly) | [tetris.pdf](pdf/tetris.pdf) |
+| [comptine.ly](ly/comptine.ly) | [comptine.pdf](pdf/comptine.pdf) |
+| [lascia-chio-pianga.ly](ly/lascia-chio-pianga.ly) | [lascia-chio-pianga.pdf](pdf/lascia-chio-pianga.pdf) |
+| [crisantemi.ly](ly/crisantemi.ly) | [crisantemi.pdf](pdf/crisantemi.pdf) |
