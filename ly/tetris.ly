@@ -6,7 +6,7 @@
   title = "Tetris"
   subtitle = "(A minor)"
   composer = ""
-  arranger = "victor noagbodji & flowkey"
+  arranger = "flowkey, victor noagbodji"
   % Remove default LilyPond tagline
   tagline = ##f
 }
