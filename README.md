@@ -1,4 +1,4 @@
-# sheet
+# sheets
 
 Sheet music created with [Lilypond](lilypond.org)
 
