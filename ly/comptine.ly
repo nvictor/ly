@@ -69,25 +69,20 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 17 - 20 
+  % NOTE(victor): right hand - mesures 17 - 20, 21 - 24
 
-  b16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 c16 e16 |
-  b16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 a16 d16 |  
-  fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 g16 b16 |
-  a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 g,16 d'16
+  % NOTE(victor): Using old repeats with alternative endings notation
+  % See https://lilypond.org/doc/v2.20/Documentation/notation/long-repeats#alternative-endings
 
-  \bar "||"
-
-  \break
-
-  % NOTE(victor): right hand - mesures 21 - 24
-
-  b16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 c16 e16 |
-  b16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 a16 d16 |  
-  fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 g16 b16 |
-  a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'8
-
-  \bar "||"
+  \repeat volta 2 {
+    b16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 c16 e16 |
+    b16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 a16 d16 |  
+    fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 g16 b16 |
+  }
+  \alternative {
+    { a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 g,16 d'16 }
+    { a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'8 }
+  }
 
   \break
 
@@ -124,23 +119,23 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 37 - 40
+  % NOTE(victor): right hand - mesures 37 - 40, 41 - 45
 
-  b16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 c16 e16 |
-  b16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 a16 d16 |  
-  fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 g16 b16 |
-  a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 g,16 d'16
+  % NOTE(victor): Using old repeats with alternative endings notation
+  % See https://lilypond.org/doc/v2.20/Documentation/notation/long-repeats#alternative-endings
 
-  \bar "||"
+  \repeat volta 2 {
+    b16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 c16 e16 |
+    b16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 a16 d16 |  
+    fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 g16 b16 |
+  }
+  \alternative {
+    { a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 g,16 d'16 | }
+    { a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 g16 | }
+  }
 
-  \break
+  % NOTE(victor): right hand - mesure 46
 
-  % NOTE(victor): right hand - mesures 41 - 45
-
-  b16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 b'16 b,16 e16 c16 e16 |
-  b16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 b'16 b,16 d16 a16 d16 |  
-  fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 fis'16 fis,16 b16 g16 b16 |
-  a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 g16 |
   <g, b e>1
   
   \bar "|."
@@ -191,25 +186,17 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 17 - 20
+  % NOTE(victor): left hand - mesures 17 - 20, 21 - 24
 
+  \repeat volta 2 {
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
   <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
   <d, d'>8 b'8 <fis d'>8 b8 <d, d'>8 b'8 <fis d'>8 b8 |
-  <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>8 a8
-
-  \bar "||"
-
-  \break
-
-  % NOTE(victor): left hand - mesures 21 - 24
-
-  <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
-  <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
-  <d, d'>8 b'8 <fis d'>8 b8 <d, d'>8 b'8 <fis d'>8 b8 |
-  <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>8 a8
-
-  \bar "||"
+  }
+  \alternative {
+   { <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>8 a8 }
+   { <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>8 a8 }
+  }
 
   \break
 
@@ -246,23 +233,23 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 37 - 40
+  % NOTE(victor): left hand - mesures 37 - 40, 41 - 45
+  
+  % NOTE(victor): Using old repeats with alternative endings notation
+  % See https://lilypond.org/doc/v2.20/Documentation/notation/long-repeats#alternative-endings
 
-  <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
-  <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
-  <d, d'>8 b'8 <fis d'>8 b8 <d, d'>8 b'8 <fis d'>8 b8 |
-  <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>8 a8
+  \repeat volta 2 {
+    <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
+    <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
+    <d, d'>8 b'8 <fis d'>8 b8 <d, d'>8 b'8 <fis d'>8 b8 |
+  }
+  \alternative {
+    { <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>8 a8 | }
+    { <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>4 | }
+  }
 
-  \bar "||"
+  % NOTE(victor): right hand - mesure 46
 
-  \break
-
-  % NOTE(victor): left hand - mesures 41 - 45
-
-  <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
-  <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
-  <d, d'>8 b'8 <fis d'>8 b8 <d, d'>8 b'8 <fis d'>8 b8 |
-  <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>4 |
   <e b' e>1
 
   \bar "|."
