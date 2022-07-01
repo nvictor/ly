@@ -61,6 +61,28 @@ right = \relative c'' {
   r8 a,8 a4 c8 a4. |
   r8 a8 a4 gis8 f8 a4
 
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 17 - 20
+  
+  r8 a8 a4 b8 a8 f8 a8 |
+  r8 a8 a4 b4 c4 |
+  r8 a8 a4 e'8 ees8 r8 a,8 |
+  r8 a8 a4 ees'2 
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 21 - 24
+  
+  r8 a,8 a8 f8 b8 a4 a8 |
+  r8 a8 a4 b8 a4 a8 |
+  r8 a8 a4 a4 a4 |
+  r8 a8 a8 e8 e8 a8 c8 e'8
+
   \bar "|."
 }
 
@@ -110,6 +132,24 @@ left = \relative c' {
   \bar "||"
   
   \break
+  
+  % NOTE(victor): left hand - mesures 17 - 20
+
+  <f, f'>4. a'8~ a4 <f a>4 |
+  <g, g'>4. <g' a>8~ <g a>2 |
+  <a, a'>4. a'8~ a2 |
+  <a, a'>4. a'8~ a2
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): left hand - mesures 21 - 24
+
+  <f, f'>1 |
+  <g g'>4. g'8~ g2 |
+  <a, a'>4. a'8~ a2 |
+  <a, a'>1
 
   \bar "|."
 }
