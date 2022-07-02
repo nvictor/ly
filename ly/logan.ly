@@ -70,7 +70,7 @@ right = \relative c'' {
   r8 a8 a4 b8 a8 f8 a8 |
   r8 a8 a4 b4 c4 |
   r8 a8 a4 e'8 ees8 r8 a,8 |
-  r8 a8 a4 ees'2 
+  r4 a4 ees'2
 
   \bar "||"
   
@@ -81,7 +81,40 @@ right = \relative c'' {
   r8 a,8 a8 f8 b8 a4 a8 |
   r8 a8 a4 b8 a4 a8 |
   r8 a8 a4 a4 a4 |
-  r8 a8 a8 e8 e8 a8 c8 e'8
+  r8 a8 a8 e8 e8 a8 c8 dis8
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 25 - 28
+
+  e4 a4 c8 a4. |
+  r4 a4 gis8 f8 a4 |
+  r4 a8 a,8 c8 a8 ees'4 |
+  r4 a8 a,8 c8 a8 ees'8 c8
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 29 - 32
+  
+  g8 a8 a'8 c,8 c'8 a4 a,8 |
+  r4 a'4 gis8 f8 a4 |
+  r8 a,8 a'8 a,8~ a4 a8 a8 |
+  r8 a8 a'8 a,8~ a4 a4
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 33 - 36
+
+  r8 a8 a'8 a,8 c'8 a8 ees'4 |
+  r8 a,,,8 a'8 e8 c'8 a8 ees'4 |
+  r8 a,8 a'8 a,8 r2 |
+  \appoggiatura c'16 b1
 
   \bar "|."
 }
@@ -150,6 +183,39 @@ left = \relative c' {
   <g g'>4. g'8~ g2 |
   <a, a'>4. a'8~ a2 |
   <a, a'>1
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 25 - 28
+
+  <c, c'>1 |
+  <d d'>4. a''8~ a2 |
+  <a,, a'>4. e''8~ e2 |
+  <a,, a'>1
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 29 - 32
+
+  <c c'>1 |
+  <d d'>4 a''4~ a2 |
+  <a,, a'>2 a''2 |
+  a,2 a'4.~ a16 e16
+
+  \bar "||"
+  
+  \break
+  
+  % NOTE(victor): right hand - mesures 33 - 36
+
+  <a,, a'>1 |
+  <a a'>1 |
+  <a a'>1~ |
+  <a a'>1
 
   \bar "|."
 }
