@@ -22,6 +22,9 @@ right = \relative c'' {
   \global
 
   % NOTE(victor): right hand - mesures 1 - 4
+  
+  % NOTE(victor): Lilypond creators chose not to support ritardando somehow
+  % See: https://www.mail-archive.com/bug-lilypond@gnu.org/msg14925.html
 
   r8 a8 a4 e'2 |
   r8 a,8 a4 e'8 ees4. |
@@ -81,7 +84,7 @@ right = \relative c'' {
   r8 a,8 a8 f8 b8 a4 a8 |
   r8 a8 a4 b8 a4 a8 |
   r8 a8 a4 a4 a4 |
-  r8 a8 a8 e8 e8 a8 c8 dis8
+  r8 a8\cresc a8 e8 e8 a8 c8 dis8
 
   \bar "||"
   
@@ -89,7 +92,7 @@ right = \relative c'' {
   
   % NOTE(victor): right hand - mesures 25 - 28
 
-  e4 a4 c8 a4. |
+  e4\f a4 c8 a4. |
   r4 a4 gis8 f8 a4 |
   r4 a8 a,8 c8 a8 ees'4 |
   r4 a8 a,8 c8 a8 ees'8 c8
@@ -111,9 +114,9 @@ right = \relative c'' {
   
   % NOTE(victor): right hand - mesures 33 - 36
 
-  r8 a8 a'8 a,8 c'8 a8 ees'4 |
+  r8 a8\dim a'8 a,8 c'8 a8 ees'4 |
   r8 a,,,8 a'8 e8 c'8 a8 ees'4 |
-  r8 a,8 a'8 a,8 r2 |
+  r8 a,8\p a'8 a,8 r2 |
   \appoggiatura c'16 b1
 
   \bar "|."
@@ -188,7 +191,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 25 - 28
+  % NOTE(victor): left hand - mesures 25 - 28
 
   <c, c'>1 |
   <d d'>4. a''8~ a2 |
@@ -199,7 +202,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 29 - 32
+  % NOTE(victor): left hand - mesures 29 - 32
 
   <c c'>1 |
   <d d'>4 a''4~ a2 |
@@ -210,7 +213,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 33 - 36
+  % NOTE(victor): left hand - mesures 33 - 36
 
   <a,, a'>1 |
   <a a'>1 |
