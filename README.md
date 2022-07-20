@@ -8,6 +8,7 @@ Sheet music created with [Lilypond](lilypond.org)
 
 ## L
 
+[lacrimosa.ly](ly/lacrimosa.ly) – [lacrimosa.pdf](pdf/lacrimosa.pdf)
 [logan.ly](ly/logan.ly) – [logan.pdf](pdf/logan.pdf)
 
 ## T
