@@ -37,7 +37,24 @@ right = \relative c'' {
   % NOTE(victor): right hand - mesures 3 - 4
 
   <f, a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8
-  <f a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8 
+  <f a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8
+
+  \break
+  
+  % NOTE(victor): right hand - mesures 5 - 6
+  
+  % NOTE(victor): Note the staccatissimo sign -!
+
+  <f, a d>4-! r8 <a cis e>4-! r8 <a d f>4-! r8 <c e g>4-! r8
+  <c f a>4-! r8 <e gis b>4-! r8 <e a c>4-! r8 <g b d>4-! r8
+
+  \break
+
+  % NOTE(victor): right hand - mesures 7 - 8
+
+  <g c ees>4. <g c e>4. <f c' f>4. <a ees' fis>4.
+  <g d' g>4. <gis d' fis g>4. <a d f a>4. <e a cis>4^\markup{\italic rit.} r8
+
 }
 
 left = \relative c, {
@@ -57,6 +74,19 @@ left = \relative c, {
 
   d,8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
   d,8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
+
+  % NOTE(victor): right hand - mesures 5 - 6
+
+  d,,8 d'8( a8) a,8 e''8( a,8) d,8 f'8( d8) c,8 g''8( c,8)
+  f,8 a'8( f8) e,8 b''8( e,8) a,8 c'8( a8) g,8 d''8( g,8)
+
+  \break
+
+  % NOTE(victor): right hand - mesures 7 - 8
+  
+  c,8 c'8( g8) bes,8 c'8( g8) a,8 c'8( f,8) c8 es'8( a,8)
+  b,8 d'8( g,8) bes,8 d'8( gis,8) a,8 d'8( a8) a,8 cis'8( a8)
+
 }
 
 \score { 
