@@ -91,40 +91,40 @@ left = \relative c, {
   % NOTE(victor): Left hand starts in the treble clef before moving to the bass
   \clef bass 
 
-  % NOTE(victor): right hand - mesures 3 - 4
+  % NOTE(victor): left hand - mesures 3 - 4
 
   d,8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
   d,8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
 
-  % NOTE(victor): right hand - mesures 5 - 6
+  % NOTE(victor): left hand - mesures 5 - 6
 
   d,,8 d'8( a8) a,8 e''8( a,8) d,8 f'8( d8) c,8 g''8( c,8)
   f,8 a'8( f8) e,8 b''8( e,8) a,8 c'8( a8) g,8 d''8( g,8)
 
   \break
 
-  % NOTE(victor): right hand - mesures 7 - 8
+  % NOTE(victor): left hand - mesures 7 - 8
   
   c,8 c'8( g8) bes,8 c'8( g8) a,8 c'8( f,8) c8 es'8( a,8)
   b,8 d'8( g,8) bes,8 d'8( gis,8) a,8 d'8( a8) a,8 cis'8( a8)
 
   \break
 
-  % NOTE(victor): right hand - mesures 9 - 10
+  % NOTE(victor): left hand - mesures 9 - 10
 
   cis,8 a'8( e8) a,8 a'8( g8) d8 a'8( f8) a,8 d'8( a8)
   e8 bes'8( g8) a,8 e''8( a,8) f8 d'8( a8) a,8 cis'8( d8)
 
   \break
 
-  % NOTE(victor): right hand - mesures 11 - 12
+  % NOTE(victor): left hand - mesures 11 - 12
 
   g,,8 bes'8( ees,8) g,8 ees''8( bes8) aes,8 ees''8( f,8) aes,8 d'8( bes8)
   a,8 d'8( a8) a,8 d'8( a8) bes,8 bes'8( f8) bes,8 d'8( a8)
 
   \break
 
-  % NOTE(victor): right hand - mesures 13 - 14
+  % NOTE(victor): left hand - mesures 13 - 14
 
   bes,8 d'8( aes8) bes,8 d'8( g,8) c,8 c'8( g8) c,8 e'8( c8)
   cis,8 e'8( bes8) cis,8 e'8( a,8) f8 d'8( a8) d,8 a'8( f8)
