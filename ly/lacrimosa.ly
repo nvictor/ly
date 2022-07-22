@@ -55,6 +55,20 @@ right = \relative c'' {
   <g c ees>4. <g c e>4. <f c' f>4. <a ees' fis>4.
   <g d' g>4. <gis d' fis g>4. <a d f a>4. <e a cis>4^\markup{\italic rit.} r8
 
+  \break
+
+  % NOTE(victor): right hand - mesures 9 - 10
+
+  <e g a>4.~ <e g a>8 <d bes'>8 <cis g' a>8 <d f a>4.~ <d f a>8 <a' f'>8 <f d'>8
+  <g bes cis>4.~ <g bes cis>8 <a d>8 <g cis e>8 <f a e'>4.~ <f a d>4.
+
+  \break
+
+  % NOTE(victor): right hand - mesures 11 - 12
+
+  <ees bes' ees>4.~ <ees bes' ees>8 <bes' g'>8 <g ees'>8 <f a ees'>4.~ <f a d>4.
+  <f a d>4.~ <f a d>8 <a f'>8 <g e'>8 <f e'>4.~( <f d'>8) bes8 aes8
+
 }
 
 left = \relative c, {
@@ -86,6 +100,20 @@ left = \relative c, {
   
   c,8 c'8( g8) bes,8 c'8( g8) a,8 c'8( f,8) c8 es'8( a,8)
   b,8 d'8( g,8) bes,8 d'8( gis,8) a,8 d'8( a8) a,8 cis'8( a8)
+
+  \break
+
+  % NOTE(victor): right hand - mesures 9 - 10
+
+  cis,8 a'8( e8) a,8 a'8( g8) d8 a'8( f8) a,8 d'8( a8)
+  e8 bes'8( g8) a,8 e''8( a,8) f8 d'8( a8) a,8 cis'8( d8)
+
+  \break
+
+  % NOTE(victor): right hand - mesures 11 - 12
+
+  g,,8 bes'8( ees,8) g,8 ees''8( bes8) aes,8 ees''8( f,8) aes,8 d'8( bes8)
+  a,8 d'8( a8) a,8 d'8( a8) bes,8 bes'8( f8) bes,8 d'8( a8)
 
 }
 
