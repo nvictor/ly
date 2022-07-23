@@ -90,6 +90,21 @@ right = \relative c'' {
   <f g b>4.( <e g c>4. <e g d'>4.) <f c'>4( f'8)
   <f, bes d f>4.~( <f a d f>8 d'8 <f, a b>8) <f a c>4.~( <e g c>8 bes'8 <e, g>8)
 
+  \break
+
+  % NOTE(victor): right hand - mesures 19 - 20
+
+  f8 f8( f'8) r8 f,8( f'8) r8 f,8( f'8) a,8( c8) f8
+  
+  % NOTE(victor): this passage needs two voices in the right hand
+  % f8( f,8 bes8 f'8) d8 b8 c8( c'8 a8 c,8) bes'8 g8 
+
+  <<
+    \relative c'' { f4.~ f8 d8 b8 r8 c'8( a8) r8 bes8( g8) }
+    \\
+    \relative c'' { r8 f,8 bes8 r4 r8 c4.~ c8 bes8 g8 }
+  >>
+   
 }
 
 left = \relative c, {
@@ -156,6 +171,14 @@ left = \relative c, {
 
   d,8[ g8 b8] c,8[ g'8 c8] bes,8[ g'8 bes8] a,8[ f'8 f8]
   bes,8[ f'8 bes8] d,8[ f8 b8] c,8[ f8 c'8] c,8[ g'8 bes8]
+
+  \break
+
+  % NOTE(victor): left hand - mesures 19 - 20
+
+  <f a>4 r8 <a, c ees f>4 r8 <bes d f>4 r8 <c ees f>4 r8
+  <bes d bes'>4 r8 <d f aes>4 r8 <c f a>4 r8 <c e bes'>4 r8
+
 }
 
 \score { 
