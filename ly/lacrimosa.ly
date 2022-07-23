@@ -92,19 +92,33 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 19 - 20
+  % NOTE(victor): right hand - mesures 19 - 21
 
   f8 f8( f'8) r8 f,8( f'8) r8 f,8( f'8) a,8( c8) f8
   
-  % NOTE(victor): this passage needs two voices in the right hand
-  % f8( f,8 bes8 f'8) d8 b8 c8( c'8 a8 c,8) bes'8 g8 
+  % NOTE(victor): Measure 20 needs two voices in the right hand
 
   <<
     \relative c'' { f4.~ f8 d8 b8 r8 c'8( a8) r8 bes8( g8) }
     \\
     \relative c'' { r8 f,8 bes8 r4 r8 c4.~ c8 bes8 g8 }
   >>
-   
+
+  % NOTE(victor): Measure 21 is also a two voices passage
+
+  <<
+    \relative c'' { r4. r8 cis'8( d8) r8 d,8( cis8) r8 a'8( a,8) }
+    \\
+    \relative c'' { f,4 r8 <a d>4 r8 <g bes>4 r8 <e a>4 r8 }
+  >>
+
+  \break
+
+  % NOTE(victor): right hand - mesures 22 - 23 (Same as 3 and 4)
+
+  <f, a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8
+  <f a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8
+
 }
 
 left = \relative c, {
@@ -174,10 +188,18 @@ left = \relative c, {
 
   \break
 
-  % NOTE(victor): left hand - mesures 19 - 20
+  % NOTE(victor): left hand - mesures 19 - 21
 
   <f a>4 r8 <a, c ees f>4 r8 <bes d f>4 r8 <c ees f>4 r8
   <bes d bes'>4 r8 <d f aes>4 r8 <c f a>4 r8 <c e bes'>4 r8
+  <f a>4 r8 <f, f'>4 r8 <e e'>4 r8 <a, a'>4 r8
+
+  \break
+
+  % NOTE(victor): left hand - mesures 22 - 23 (Same as 3 and 4)
+
+  d'8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
+  d,8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
 
 }
 
