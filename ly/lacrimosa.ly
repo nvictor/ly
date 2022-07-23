@@ -76,6 +76,13 @@ right = \relative c'' {
   <f aes d>4.~ <f g d'>8 g'8 f8 <g, f'>4.~( <g e'>8) c8 bes8
   <g bes e>4.~ <g bes e>8 a'8 g8 <a, g'>4.~ <f a g'>4.
 
+  \break
+
+  % NOTE(victor): right hand - mesures 15 - 16
+
+  <f aes b>4.( <f aes c>4. <f aes d>4. <f aes d>4.)
+  <f aes d>4.( <f aes c>4. <f aes b>4. <f aes b>4.)
+
 }
 
 left = \relative c, {
@@ -128,6 +135,13 @@ left = \relative c, {
 
   bes,8 d'8( aes8) bes,8 d'8( g,8) c,8 c'8( g8) c,8 e'8( c8)
   cis,8 e'8( bes8) cis,8 e'8( a,8) f8 d'8( a8) d,8 a'8( f8)
+
+  \break
+
+  % NOTE(victor): left hand - mesures 15 - 16
+
+  d8[ f8 b8] c,8[ f8 c'8] b,8[ f'8 d'8] b,8[ f'8 b8]
+  b,8[ f'8 d'8] c,8[ f8 c'8] des,8[ f8 b8] des,8[ f8 b8]
 
 }
 
