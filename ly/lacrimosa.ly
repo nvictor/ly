@@ -83,6 +83,13 @@ right = \relative c'' {
   <f aes b>4.( <f aes c>4. <f aes d>4. <f aes d>4.)
   <f aes d>4.( <f aes c>4. <f aes b>4. <f aes b>4.)
 
+  \break
+
+  % NOTE(victor): right hand - mesures 17 - 18
+
+  <f g b>4.( <e g c>4. <e g d'>4.) <f c'>4( f'8)
+  <f, bes d f>4.~( <f a d f>8 d'8 <f, a b>8) <f a c>4.~( <e g c>8 bes'8 <e, g>8)
+
 }
 
 left = \relative c, {
@@ -143,6 +150,12 @@ left = \relative c, {
   d8[ f8 b8] c,8[ f8 c'8] b,8[ f'8 d'8] b,8[ f'8 b8]
   b,8[ f'8 d'8] c,8[ f8 c'8] des,8[ f8 b8] des,8[ f8 b8]
 
+  \break
+
+  % NOTE(victor): left hand - mesures 17 - 18
+
+  d,8[ g8 b8] c,8[ g'8 c8] bes,8[ g'8 bes8] a,8[ f'8 f8]
+  bes,8[ f'8 bes8] d,8[ f8 b8] c,8[ f8 c'8] c,8[ g'8 bes8]
 }
 
 \score { 
