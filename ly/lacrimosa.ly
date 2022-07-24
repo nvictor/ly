@@ -96,15 +96,15 @@ right = \relative c'' {
 
   f8 f8( f'8) r8 f,8( f'8) r8 f,8( f'8) a,8( c8) f8
   
-  % NOTE(victor): Measure 20 needs two voices in the right hand
+  % NOTE(victor): Measure 20 is a two voices passage
 
   <<
     \relative c'' { f4.~ f8 d8 b8 r8 c'8( a8) r8 bes8( g8) }
     \\
-    \relative c'' { r8 f,8 bes8 r4 r8 c4.~ c8 bes8 g8 }
+    \relative c'' { r8 f,8 bes8 r4 r8 c4.~ c4. }
   >>
 
-  % NOTE(victor): Measure 21 is also a two voices passage
+  % NOTE(victor): Measure 21 is a two voices passage
 
   <<
     \relative c'' { r4. r8 cis'8( d8) r8 d,8( cis8) r8 a'8( a,8) }
@@ -119,6 +119,42 @@ right = \relative c'' {
   <f, a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8
   <f a>4.~ <f a>8 <a f'>8 <f d'>8 <g bes d>4.~( <g a cis>4) r8
 
+  \break
+
+  % NOTE(victor): right hand - mesures 24 - 25
+
+  <f a d>4. <a c>4. <d bes' d>4. <c fis a c>4.
+  <bes g' bes>4. <a ees' a>4. <g bes e g>4. <f a d f>4.
+
+  \break
+
+  % NOTE(victor): right hand - mesures 26 - 27
+
+  r4. <d f b d>4. <cis e a c>4. <d f a d>4.
+  <e a cis e>4. <f a d f>4. <e a d e>4. <e a cis e>4.
+
+  \break
+
+  % NOTE(victor): right hand - mesures 28 - 29
+
+  % NOTE(victor): Measure 28 is a two voices passage
+
+  <<
+    \relative c'' { r8 cis8[ d8] r8 g8[ fis8] r8 bes8( a8) r8 d8( c8) }
+    \\
+    \relative c'' { <f, a d>4 r8 <a c>4 r8 <c fis>4 r8 <fis a>4 r8 }
+  >>
+
+  <g bes d>1.
+
+  \break
+
+  % NOTE(victor): right hand - mesures 30 - 31
+
+  <fis a d>1.
+  r1.
+
+  \bar "|."
 }
 
 left = \relative c, {
@@ -201,6 +237,35 @@ left = \relative c, {
   d'8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
   d,8 cis'8( d8) f,8 a8( bes8) e,8 d'8( cis8) a,8 bes'8( a8)
 
+  \break
+
+  % NOTE(victor): left hand - mesures 24 - 25
+
+  d,8 cis'8( d8) fis,8 a8( d8) g,8 cis8( d8) d,8 a'8( d8)
+  ees,8 bes'8( ees8) c,8 a'8( ees'8) cis,8 g'8( e'8) d,8 a'8( d8)
+
+  \break
+
+  % NOTE(victor): left hand - mesures 26 - 27
+
+  g,,8 e'8( bes'8) gis,8 f'8( b8) a,8 e'8( cis'8) a,8 f'8( d'8)
+  a,,8 e''8( a8) a,8 f'8( d'8) a,8 e'8( a8) a,,8 cis''8( e,8)
+
+  \break
+
+  % NOTE(victor): left hand - mesures 28 - 29
+
+  <d, d'>4 r8 <d d'>4 r8 <d d'>4 r8 <d d'>4 r8
+  g8 bes'8( g8) d8 g'8( d8) bes,8 d'8( bes8) g,8 bes'8( g8)
+
+  \break
+
+  % NOTE(victor): left hand - mesures 30 - 31
+
+  <d, d'>1.
+  r1.
+
+  \bar "|."
 }
 
 \score { 
