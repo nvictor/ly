@@ -6,6 +6,10 @@ Sheet music created with [Lilypond](lilypond.org)
 
 [comptine.ly](ly/comptine.ly) – [comptine.pdf](pdf/comptine.pdf)
 
+## G
+
+[greensleeves.ly](ly/greensleeves.ly) - [greensleeves.pdf](pdf/greensleeves.pdf)
+
 ## L
 
 [lacrimosa.ly](ly/lacrimosa.ly) – [lacrimosa.pdf](pdf/lacrimosa.pdf)
