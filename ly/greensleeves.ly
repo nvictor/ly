@@ -43,7 +43,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): left hand - mesures 9 - 12
+  % NOTE(victor): right hand - mesures 9 - 12
 
   g'4. g8. fis16 e8
   d4 b8 g8. a16 b8
@@ -52,7 +52,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): left hand - mesures 13 - 16
+  % NOTE(victor): right hand - mesures 13 - 16
 
   g'4. g8. fis16 e8
   d4 b8 g8. a16 b8
