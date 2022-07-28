@@ -29,7 +29,7 @@ right = \relative c'' {
   r8 a8 a4 e'2 |
   r8 a,8 a4 e'8 ees4. |
   r8 a,8 a4 e'2 |
-  r8 a,8^\markup \italic "rit." a4 c2
+  r8 a,8^\markup{\italic rit.} a4 c2
   
   \bar "||"
   
