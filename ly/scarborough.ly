@@ -21,19 +21,19 @@ global = {
 voice = \relative c' {
   \global
 
-  % NOTE(victor): voice - mesures 1 - 2
+  % NOTE(victor): voice - bars 1 - 2
 
   r2.
   r2.
 
-  % NOTE(victor): voice - mesures 3 - 4
+  % NOTE(victor): voice - bars 3 - 4
 
   r2.
   r2.
 
   \break
 
-  % NOTE(victor): voice - mesures 5 - 8
+  % NOTE(victor): voice - bars 5 - 8
 
   d2 d4
   a'2 a4
@@ -45,43 +45,45 @@ voice = \relative c' {
 right = \relative c' {
   \global
 
-  % NOTE(victor): right hand - mesures 1 - 2
+  % NOTE(victor): right hand - bars 1 - 2
 
   <d a'>2.
   <d a'>2.
 
-  % NOTE(victor): right hand - mesures 3 - 4
+  % NOTE(victor): right hand - bars 3 - 4
 
   <d a'>2.
   <d a'>2.
 
   \break
 
-  % NOTE(victor): right hand - mesures 5 - 8
+  % NOTE(victor): right hand - bars 5 - 8
 
   <d a'>2.
   <d a'>2.
   <c g'>2.
   <a d>2.
 
+  % NOTE(victor): right hand - bars 
+
 }
 
 left = \relative c, {
   \global
 
-  % NOTE(victor): left hand - mesures 1 - 2
+  % NOTE(victor): left hand - bars 1 - 2
 
   d8 a'8 d8 f8 a8 d,8
   d,8 a'8 d8 f8 a8 d,8
 
-  % NOTE(victor): left hand - mesures 3 - 4
+  % NOTE(victor): left hand - bars 3 - 4
 
   d,8 a'8 d8 f8 a8 d,8
   d,8 a'8 d8 f8 a8 d,8
 
   \break
 
-  % NOTE(victor): left hand - mesures 5 - 8
+  % NOTE(victor): left hand - bars 5 - 8
 
   d,8 a'8 d2
   d,8 a'8 d2

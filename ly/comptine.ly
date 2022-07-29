@@ -25,7 +25,7 @@ chordnames = \chordmode {
 right = \relative c'' {
   \global
   
-  % NOTE(victor): right hand - mesures 1 - 4
+  % NOTE(victor): right hand - bars 1 - 4
 
   r1 |
   r1 |
@@ -36,7 +36,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 5 - 8
+  % NOTE(victor): right hand - bars 5 - 8
 
   \repeat volta 2 {
     r8 g16 fis16 g8[ b16 c16] b2 |
@@ -47,7 +47,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 9 - 12
+  % NOTE(victor): right hand - bars 9 - 12
 
   e'4. b8~b2 |
   d4. b8~b2 |
@@ -58,7 +58,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 13 - 16 
+  % NOTE(victor): right hand - bars 13 - 16 
 
   <b g'>4. <g e'>8~<g e'>2 |
   <b g'>4. <g d'>8~<g d'>2 |
@@ -69,7 +69,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 17 - 20, 21 - 24
+  % NOTE(victor): right hand - bars 17 - 20, 21 - 24
 
   % NOTE(victor): Using old repeats with alternative endings notation
   % See https://lilypond.org/doc/v2.20/Documentation/notation/long-repeats#alternative-endings
@@ -86,7 +86,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 25 - 28
+  % NOTE(victor): right hand - bars 25 - 28
 
   \repeat volta 2 {
     r8 g16 fis16 g8[ b16 c16] b2 |
@@ -97,7 +97,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 29 - 32
+  % NOTE(victor): right hand - bars 29 - 32
 
   e'4. b8~b2 |
   d4. b8~b2 |
@@ -108,7 +108,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 33 - 36
+  % NOTE(victor): right hand - bars 33 - 36
 
   <b g'>4. <g e'>8~<g e'>2 |
   <b g'>4. <g d'>8~<g d'>2 |
@@ -119,7 +119,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 37 - 40, 41 - 45
+  % NOTE(victor): right hand - bars 37 - 40, 41 - 45
 
   % NOTE(victor): Using old repeats with alternative endings notation
   % See https://lilypond.org/doc/v2.20/Documentation/notation/long-repeats#alternative-endings
@@ -134,7 +134,7 @@ right = \relative c'' {
     { a16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 a,16 d16 a'16 g16 | }
   }
 
-  % NOTE(victor): right hand - mesure 46
+  % NOTE(victor): right hand - bar 46
 
   <g, b e>1
   
@@ -144,7 +144,7 @@ right = \relative c'' {
 left = \relative c {
   \global
 
-  % NOTE(victor): left hand - mesures 1 - 4
+  % NOTE(victor): left hand - bars 1 - 4
 
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
   <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
@@ -153,7 +153,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 5 - 8
+  % NOTE(victor): left hand - bars 5 - 8
  
   \repeat volta 2 {
     <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
@@ -164,7 +164,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 9 - 12
+  % NOTE(victor): left hand - bars 9 - 12
 
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
   <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
@@ -175,7 +175,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 13 - 16
+  % NOTE(victor): left hand - bars 13 - 16
 
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
   <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
@@ -186,7 +186,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 17 - 20, 21 - 24
+  % NOTE(victor): left hand - bars 17 - 20, 21 - 24
 
   \repeat volta 2 {
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
@@ -200,7 +200,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 25 - 28
+  % NOTE(victor): left hand - bars 25 - 28
 
   \repeat volta 2 {
     <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
@@ -211,7 +211,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 29 - 32
+  % NOTE(victor): left hand - bars 29 - 32
 
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
   <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
@@ -222,7 +222,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 33 - 36
+  % NOTE(victor): left hand - bars 33 - 36
 
   <e e'>8 b'8 <g e'>8 b8 <e, e'>8 b'8 <g e'>8 b8 |
   <d, d'>8 b'8 <g d'>8 b8 <d, d'>8 b'8 <g d'>8 b8 |
@@ -233,7 +233,7 @@ left = \relative c {
 
   \break
 
-  % NOTE(victor): left hand - mesures 37 - 40, 41 - 45
+  % NOTE(victor): left hand - bars 37 - 40, 41 - 45
   
   % NOTE(victor): Using old repeats with alternative endings notation
   % See https://lilypond.org/doc/v2.20/Documentation/notation/long-repeats#alternative-endings
@@ -248,7 +248,7 @@ left = \relative c {
     { <d, d'>8 a'8 <fis d'>8 a8 <d, d'>8 a'8 <fis d'>4 | }
   }
 
-  % NOTE(victor): right hand - mesure 46
+  % NOTE(victor): left hand - bar 46
 
   <e b' e>1
 

@@ -25,7 +25,7 @@ right = \relative c'' {
 
   \partial 8 a8
 
-  % NOTE(victor): right hand - mesures 1 - 4
+  % NOTE(victor): right hand - bars 1 - 4
 
   c4 d8 e8. f16 e8
   d4 b8 g8. a16 b8
@@ -34,7 +34,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 5 - 8
+  % NOTE(victor): right hand - bars 5 - 8
 
   c4 d8 e8. f16 e8
   d4 b8 g8. a16 b8
@@ -43,7 +43,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 9 - 12
+  % NOTE(victor): right hand - bars 9 - 12
 
   g'4. g8. fis16 e8
   d4 b8 g8. a16 b8
@@ -52,7 +52,7 @@ right = \relative c'' {
 
   \break
 
-  % NOTE(victor): right hand - mesures 13 - 16
+  % NOTE(victor): right hand - bars 13 - 16
 
   g'4. g8. fis16 e8
   d4 b8 g8. a16 b8
@@ -69,7 +69,7 @@ left = \relative c' {
 
   \partial 8 r8
 
-  % NOTE(victor): left hand - mesures 1 - 4
+  % NOTE(victor): left hand - bars 1 - 4
 
   <a e'>2.
   <g d'>2.
@@ -78,7 +78,7 @@ left = \relative c' {
 
   \break
 
-  % NOTE(victor): left hand - mesures 5 - 8
+  % NOTE(victor): left hand - bars 5 - 8
 
   <a e'>2.
   <g d'>2.
@@ -87,7 +87,7 @@ left = \relative c' {
 
   \break
 
-  % NOTE(victor): left hand - mesures 9 - 12
+  % NOTE(victor): left hand - bars 9 - 12
 
   <c e g>2.
   <g b d>2.
@@ -96,7 +96,7 @@ left = \relative c' {
 
   \break
 
-  % NOTE(victor): left hand - mesures 9 - 12
+  % NOTE(victor): left hand - bars 9 - 12
 
   <c' e g>2.
   <g b d>2.

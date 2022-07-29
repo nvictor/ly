@@ -21,7 +21,7 @@ global = {
 right = \relative c'' {
   \global
 
-  % NOTE(victor): right hand - mesures 1 - 4
+  % NOTE(victor): right hand - bars 1 - 4
   
   % NOTE(victor): Lilypond creators chose not to support ritardando somehow
   % See: https://www.mail-archive.com/bug-lilypond@gnu.org/msg14925.html
@@ -35,7 +35,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 5 - 8
+  % NOTE(victor): right hand - bars 5 - 8
 
   r8 a8 a4 e'8 ees4. |
   r8 a,8 a4 gis8 f8 a8 c8 |
@@ -46,7 +46,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 9 - 12
+  % NOTE(victor): right hand - bars 9 - 12
 
   r8 a,8 a4 c'8 a4. |
   r8 a,8 a4 gis'8 f8 a4 |
@@ -57,7 +57,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 13 - 16
+  % NOTE(victor): right hand - bars 13 - 16
  
   r8 a,8 a4 c'8 a4. |
   r8 a,8 a4 gis'8 f8 a4 |
@@ -68,7 +68,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 17 - 20
+  % NOTE(victor): right hand - bars 17 - 20
   
   r8 a8 a4 b8 a8 f8 a8 |
   r8 a8 a4 b4 c4 |
@@ -79,7 +79,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 21 - 24
+  % NOTE(victor): right hand - bars 21 - 24
   
   r8 a,8 a8 f8 b8 a4 a8 |
   r8 a8 a4 b8 a4 a8 |
@@ -90,7 +90,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 25 - 28
+  % NOTE(victor): right hand - bars 25 - 28
 
   e4\f a4 c8 a4. |
   r4 a4 gis8 f8 a4 |
@@ -101,7 +101,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 29 - 32
+  % NOTE(victor): right hand - bars 29 - 32
   
   g8 a8 a'8 c,8 c'8 a4 a,8 |
   r4 a'4 gis8 f8 a4 |
@@ -112,7 +112,7 @@ right = \relative c'' {
   
   \break
   
-  % NOTE(victor): right hand - mesures 33 - 36
+  % NOTE(victor): right hand - bars 33 - 36
 
   r8 a8\dim a'8 a,8 c'8 a8 ees'4 |
   r8 a,,,8 a'8 e8 c'8 a8 ees'4 |
@@ -125,7 +125,7 @@ right = \relative c'' {
 left = \relative c' {
   \global
 
-  % NOTE(victor): left hand - mesures 1 - 4
+  % NOTE(victor): left hand - bars 1 - 4
 
   a4. a8~ a2 |
   a4. a8~ a2 |
@@ -136,7 +136,7 @@ left = \relative c' {
   
   \break
 
-  % NOTE(victor): left hand - mesures 5 - 8
+  % NOTE(victor): left hand - bars 5 - 8
 
   c,4. a'8~ a4. a,8 |
   d4. a'8~ a2 |
@@ -147,7 +147,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 9 - 12
+  % NOTE(victor): left hand - bars 9 - 12
 
   <c,, c'>4. a''8~ a2 |
   <d,, d'>4. a''8~ a2 |
@@ -158,7 +158,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 13 - 16
+  % NOTE(victor): left hand - bars 13 - 16
 
   <c,, c'>4. a''8~ a4 <e' a>4 |
   <d,, d'>4. a''8~ a2 |
@@ -169,7 +169,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 17 - 20
+  % NOTE(victor): left hand - bars 17 - 20
 
   <f, f'>4. a'8~ a4 <f a>4 |
   <g, g'>4. <g' a>8~ <g a>2 |
@@ -180,7 +180,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 21 - 24
+  % NOTE(victor): left hand - bars 21 - 24
 
   <f, f'>1 |
   <g g'>4. g'8~ g2 |
@@ -191,7 +191,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 25 - 28
+  % NOTE(victor): left hand - bars 25 - 28
 
   <c, c'>1 |
   <d d'>4. a''8~ a2 |
@@ -202,7 +202,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 29 - 32
+  % NOTE(victor): left hand - bars 29 - 32
 
   <c c'>1 |
   <d d'>4 a''4~ a2 |
@@ -213,7 +213,7 @@ left = \relative c' {
   
   \break
   
-  % NOTE(victor): left hand - mesures 33 - 36
+  % NOTE(victor): left hand - bars 33 - 36
 
   <a,, a'>1 |
   <a a'>1 |
