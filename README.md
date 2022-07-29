@@ -16,6 +16,10 @@ Sheet music created with [Lilypond](lilypond.org)
 
 [logan.ly](ly/logan.ly) – [logan.pdf](pdf/logan.pdf)
 
+## S
+
+[scarborough.ly](ly/scarborough.ly) - [scarborough.pdf](pdf/scarborough.pdf)
+
 ## T
 
 [tetris.ly](ly/tetris.ly) – [tetris.pdf](pdf/tetris.pdf)
