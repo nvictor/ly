@@ -76,7 +76,6 @@ voice = \relative c' {
   r2.
   
   \bar "|."
-
 }
 
 right = \relative c' {
@@ -137,7 +136,6 @@ right = \relative c' {
   <d a'>2.
   
   \bar "|."
-
 }
 
 left = \relative c, {
@@ -198,7 +196,6 @@ left = \relative c, {
   <a d a'>2.
 
   \bar "|."
-
 }
 
 \score { 
