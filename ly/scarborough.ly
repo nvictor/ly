@@ -15,7 +15,7 @@ global = {
   \key d \minor
   \numericTimeSignature
   \time 3/4
-  \tempo "Andante moderato" 4 = 92
+  \tempo "Andante moderato" 4 = 94
 }
 
 voice = \relative c' {
@@ -168,10 +168,10 @@ left = \relative c, {
     % NOTE(victor): left hand - bars 9 - 13
 
     f8 c'8 f2
-    e,8 a8 d2
+    d,8 a'8 d2
     f,8 d'8 g2
-    e,8 a8 d8 f8 a4
-    e,8 a8 d8 f8 a4
+    d,8 a'8 d8 f8 a4
+    d,,8 a'8 d8 f8 a4
 
     \break
 
