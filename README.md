@@ -11,35 +11,37 @@ Sheet music created with [Lilypond](lilypond.org)
   </tr>
   <tr>
     <th>C</th>
-    <td>[comptine.ly](ly/comptine.ly)</td>
-    <td>[comptine.pdf](pdf/comptine.pdf)</td>
-    <td>[comptine.midi](midi/comptine.midi)</td>
+    <td><a href="ly/comptine.ly">comptine.ly</a></td>
+    <td><a href="pdf/comptine.pdf">comptine.pdf</a></td>
+    <td><a href="midi/comptine.midi>comptine.midi</a></td>
   </tr>
   <tr>
     <th>G</th>
-    <td>[greensleeves.ly](ly/greensleeves.ly)</td>
-    <td>[greensleeves.pdf](pdf/greensleeves.pdf)</td>
-    <td>[greensleeves.midi](midi/greensleeves.midi)</td>
+    <td><a href="ly/greensleeves.ly">greensleeves.ly</a></td>
+    <td><a href="pdf/greensleeves.pdf">greensleeves.pdf</a></td>
+    <td><a href="midi/greensleeves.midi">greensleeves.midi</a></td>
   </tr>
   <tr>
     <th rowspan="2">L</th>
-    <td>[lacrimosa.ly](ly/lacrimosa.ly)
-    <td>[lacrimosa.pdf](pdf/lacrimosa.pdf)
-    <td>[lacrimosa.midi](pdf/lacrimosa.midi)
-    <td>[logan.ly](ly/logan.ly)
-    <td>[logan.pdf](pdf/logan.pdf)
-    <td>[logan.midi](midi/logan.midi)
+    <td><a href="ly/lacrimosa.ly">lacrimosa.ly</a></td>
+    <td><a href="pdf/lacrimosa.pdf">lacrimosa.pdf</a></td>
+    <td><a href="pdf/lacrimosa.midi">lacrimosa.midi</a></td>
+  </tr>
+  <tr>
+    <td><a href="ly/logan.ly">logan.ly</a></td>
+    <td><a href="pdf/logan.pdf">logan.pdf</a></td>
+    <td><a href="midi/logan.midi">logan.midi</a></td>
   </tr>
   <tr>
     <th>S</th>
-    <td>[scarborough.ly](ly/scarborough.ly)</td>
-    <td>[scarborough.pdf](pdf/scarborough.pdf)</td>
-    <td>[scarborough.midi](midi/scarborough.midi)</td>
+    <td><a href="ly/scarborough.ly">scarborough.ly</a></td>
+    <td><a href="pdf/scarborough.pdf">scarborough.pdf</a></td>
+    <td><a href="midi/scarborough.midi">scarborough.midi</a></td>
   </tr>
   <tr>
     <th>T</th>
-    <td>[tetris.ly](ly/tetris.ly)</td>
-    <td>[tetris.pdf](pdf/tetris.pdf)</td>
-    <td>[tetris.midi](midi/tetris.midi)</td>
+    <td><a href="ly/tetris.ly">tetris.ly</a></td>
+    <td><a href="pdf/tetris.pdf">tetris.pdf</a></td>
+    <td><a href="midi/tetris.midi">tetris.midi</a></td>
   </tr>
 </table>
