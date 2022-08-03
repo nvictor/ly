@@ -5,7 +5,7 @@ Sheet music created with [Lilypond](lilypond.org)
 <table>
   <tr>
     <th></th>
-    <th>LY</th>
+    <th>Sheetmusic</th>
     <th>PDF</th>
     <th>MIDI</th>
   </tr>
@@ -13,7 +13,7 @@ Sheet music created with [Lilypond](lilypond.org)
     <th>C</th>
     <td><a href="ly/comptine.ly">comptine.ly</a></td>
     <td><a href="pdf/comptine.pdf">comptine.pdf</a></td>
-    <td><a href="midi/comptine.midi>comptine.midi</a></td>
+    <td><a href="midi/comptine.midi">comptine.midi</a></td>
   </tr>
   <tr>
     <th>G</th>
