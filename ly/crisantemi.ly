@@ -118,5 +118,5 @@ celloPart = \new Staff \with { instrumentName = "Cello" midiInstrument = "cello"
   \layout { }
   
   % NOTE(victor): midi output might not work everywhere
-  %\midi { }
+  \midi { }
 }

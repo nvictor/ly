@@ -2,8 +2,8 @@
 
 # NOTE(victor): Cleanup before committing to GitHub
 
-echo "Moving PDFs files..."
+echo "Moving PDFxs files..."
 mv ly/*.pdf pdf
 
-echo "Removing MIDI files... TODO: Maybe start uploading them"
-rm ly/*.midi
+echo "Moving MIDI files..."
+mv ly/*.midi midi

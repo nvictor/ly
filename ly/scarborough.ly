@@ -127,8 +127,8 @@ right = \relative c' {
     <d a'>2.
     <c g'>2.
     <c g'>2.
-    <d a'>2.~
-    <d a'>2.
+    d2.~
+    d2.
   }
   
   % NOTE(victor): right hand - bar 23

@@ -271,5 +271,5 @@ left = \relative c {
   \layout { }
   
   % NOTE(victor): midi output might not work everywhere
-  %\midi { }
+  \midi { }
 }
