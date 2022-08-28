@@ -39,7 +39,6 @@ Sheet music created with [Lilypond](lilypond.org)
     <td><a href="midi/scarborough.midi">scarborough.midi</a></td>
   </tr>
   <tr>
-    <th rowspan="2">S</th>
     <td><a href="ly/sorrow.ly">sorrow.ly</a></td>
     <td><a href="pdf/sorrow.pdf">sorrow.pdf</a></td>
     <td><a href="midi/sorrow.midi">sorrow.midi</a></td>
