@@ -29,9 +29,7 @@ right = \relative c' {
 
   % NOTE(victor): right hand - intro 8 bars - Riff is played staccatissimo (-!)
 
-  % ^\markup{Intro}
-
-  e8-! b8-! g8-! b8-!
+  e8-!_\markup{\italic{Intro}} b8-! g8-! b8-!
   e8-! b8-! g8-! b8-!
   e8-! b8-! e8-! b8-!
   e8-! r8 r4
