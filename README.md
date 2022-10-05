@@ -10,6 +10,12 @@ Sheet music created with [Lilypond](lilypond.org)
     <th>MIDI</th>
   </tr>
   <tr>
+    <th>A</th>
+    <td><a href="ly/aslong.ly">aslong.ly</a></td>
+    <td><a href="pdf/aslong.pdf">aslong.pdf</a></td>
+    <td><a href="midi/aslong.midi">aslong.midi</a></td>
+  </tr>
+  <tr>
     <th>C</th>
     <td><a href="ly/comptine.ly">comptine.ly</a></td>
     <td><a href="pdf/comptine.pdf">comptine.pdf</a></td>
