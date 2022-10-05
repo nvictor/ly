@@ -29,7 +29,7 @@ right = \relative c' {
 
   % NOTE(victor): right hand - intro 8 bars - Riff is played staccatissimo (-!)
 
-  e8-!_\markup{\italic{Intro}} b8-! g8-! b8-!
+  e8-!_\markup{\italic{intro}} b8-! g8-! b8-!
   e8-! b8-! g8-! b8-!
   e8-! b8-! e8-! b8-!
   e8-! r8 r4
@@ -48,10 +48,30 @@ right = \relative c' {
   e8-! b8-! g8-! b8-!
   e8-! b8-! e8-! b8-!
   c'8 a8 fis8 dis8
-  
-  % NOTE(victor): right hand - verse 18 bars
 
   % NOTE(victor): right hand - chorus 8 bars
+
+  e8-!^\markup{\italic{chorus}} b8-! g8-! b8-!
+  e8-! b8-! g8-! b8-!
+  g8-! b8-! a8-! b8-!
+  e8-! c8-! d8-! c8-!
+
+  e8-! b8-! g8-! b8-!
+  e8-! b8-! g8-! b8-!
+  e,8-! g8-! a8-! b8-!
+  c8-! b8-! a8-! e8-!
+
+  e'8-! b8-! g8-! b8-!
+  e8-! b8-! g8-! b8-!
+  g8-! b8-! a8-! b8-!
+  e8-! c8-! d8-! c8-!
+
+  e8-! b8-! g8-! b8-!
+  e8-! b8-! g8-! b8-!
+  e,8-! g8-! a8-! b8-!
+  c8-! b8-! r4
+
+  % NOTE(victor): right hand - verse 18 bars
 
   % NOTE(victor): right hand - verse 24 bars
 
@@ -90,10 +110,30 @@ left = \relative c, {
   <e e'>8-! r4 <e e'>8-!
   <e e'>8-! r4 <e e'>8-!
   c'8 a8 fis8 dis8
- 
-  % NOTE(victor): left hand - verse 18 bars
 
   % NOTE(victor): left hand - chorus 8 bars
+ 
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+  <e e'>8-! r4.
+
+  % NOTE(victor): left hand - verse 18 bars
 
   % NOTE(victor): left hand - verse 24 bars
 
