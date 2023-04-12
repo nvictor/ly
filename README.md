@@ -1,6 +1,6 @@
 # sheets
 
-Sheet music created with [Lilypond](lilypond.org)
+Sheet music created with [Lilypond](lilypond.org) and [Frescobaldi](https://github.com/frescobaldi/frescobaldi)
 
 <table>
   <tr>
