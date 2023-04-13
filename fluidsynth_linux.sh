@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-# NOTE(victor): Install Soundfont with: apt install fluidsynth
+# NOTE(victor): Install FluidSynth with: apt install fluidsynth
 # See: https://github.com/FluidSynth/fluidsynth/wiki/ExampleCommandLines
 # Soundfont files from: http://www.schristiancollins.com/generaluser.php
 
