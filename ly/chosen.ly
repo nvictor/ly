@@ -42,7 +42,64 @@ right = \relative c'' {
 
   b'4. ais4 cis8 b4.~b4.
   b4. ais4 b8 fis4.~fis4.
-  
+
+  \break
+
+  \section
+  \sectionLabel "Variation 1"
+
+  b4. ais4 g8 fis4 e8 d4.
+  b'4. a4 fis8 e4 d8 cis4.
+
+  \break
+
+  b'4. ais4 cis8 b4. fis4.
+  b4. ais4 b8 fis4. e4.
+
+  \break
+
+  \section
+  \sectionLabel "Variation 2"
+
+  b'4. ais4 g8 fis4 e8 d4.
+  b'4. a4 fis8 e4 d8 cis4.
+
+  \break
+
+  b'4. ais4 cis8 b4. fis4.
+  b4. ais4 b8 fis4. e4.
+
+  \break
+
+  \section
+  \sectionLabel "Variation 3"
+
+  b'4. ais4 g8 fis4 e8 d4.
+  b'4. a4 fis8 e4 d8 cis4.
+
+  \break
+
+  b''4. ais4 cis8 b4. fis4.
+  b4. ais4 b8 fis4. e4.
+
+  \break
+
+  \section
+  \sectionLabel "Coda"
+
+  b4. ais4 g8 fis4.~fis4.
+  b4. a4 fis8 e4.~e4.
+
+  \break
+
+  b'4. ais4 cis8 b4. fis4.
+  b'4. ais4 cis8 b4. fis4.
+
+  \break
+
+  b,4. ais4 cis8 b4. fis4.
+  b4. ais4 cis8 b4.~b4.
+
   \fine
 }
 
@@ -62,11 +119,67 @@ left = \relative c {
   b,8 fis'8 b8~b4.~b4.~b4.
 
   \break
+
   \section
   \sectionLabel "Theme"
 
   g,8 d'8 g8~g4.~g4.~g4.
   a,8 e'8 a8~a4.~a4.~a4.
+
+  \break
+
+  b,8 fis'8 b8~b4.~b4.~b4.
+  b,8 fis'8 b8~b4.~b4.~b4.
+
+  \section
+  \sectionLabel "Variation 1"
+
+  g,8 d'8 g8~g4.~g4.~g4.
+  a,8 e'8 a8~a4.~a4.~a4.
+
+  \break
+
+  b,8 fis'8 b8~b4.~b4.~b4.
+  b,8 fis'8 b8~b4.~b4.~b4.
+
+  \break
+
+  \section
+  \sectionLabel "Variation 2"
+
+  g,8 d'8 g8~g4.~g4.~g4.
+  a,8 e'8 a8~a4.~a4.~a4.
+
+  \break
+
+  b,,8 fis'8 b8~b4.~b4.~b4.
+  b,8 fis'8 b8~b4.~b4.~b4.
+
+  \break
+
+  \section
+  \sectionLabel "Variation 3"
+
+  g8 d'8 g8~g4.~g4.~g4.
+  a,8 e'8 a8~a4.~a4.~a4.
+
+  \break
+
+  b,8 fis'8 b8~b4.~b4.~b4.
+  b,8 fis'8 b8~b4.~b4.~b4.
+
+  \break
+
+  \section
+  \sectionLabel "Coda"
+
+  g,8 d'8 g8~g4.~g4.~g4.
+  a,8 e'8 a8~a4.~a4.~a4.
+
+  \break
+
+  b,,8 fis'8 b8~b4.~b4.~b4.
+  b,8 fis'8 b8~b4.~b4.~b4.
 
   \break
 
