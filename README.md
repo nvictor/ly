@@ -2,6 +2,8 @@
 
 Sheet music created with [Lilypond](lilypond.org) and [Frescobaldi](https://github.com/frescobaldi/frescobaldi)
 
+Note: I do not have a background in music. So if you find a glaring mistake in one of the sheet music, let me know. Or better, make a PR with your changes.
+
 <table>
   <tr>
     <th></th>
